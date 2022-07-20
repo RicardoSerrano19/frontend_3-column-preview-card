@@ -26,3 +26,31 @@ body{
     align-items: center;
     background-color: var(--very-light-gray);
 }
+
+.bg-orange{
+    background-color: var(--bright-orange);
+}
+
+.bg-dark-cyan{
+    background-color: var(--dark-cyan);
+}
+
+.bg-very-dark-cyan{
+    background-color: var(--very-dark-cyan);
+}
+
+
+.container{
+    width: 72rem;
+    height: 30rem;
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.container__card{
+    flex: 1;
+}
