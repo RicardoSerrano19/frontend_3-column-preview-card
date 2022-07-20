@@ -39,6 +39,21 @@ body{
     background-color: var(--very-dark-cyan);
 }
 
+.text-orange{
+    color: var(--bright-orange);
+    border: 0.15rem solid var(--bright-orange);
+}
+
+.text-dark-cyan{
+    color: var(--dark-cyan);
+    border: 0.15rem solid var(--dark-cyan);
+}
+
+.text-very-dark-cyan{
+    color: var(--very-dark-cyan);
+    border: 0.15rem solid var(--very-dark-cyan);
+}
+
 
 .container{
     width: 72rem;
@@ -80,11 +95,12 @@ body{
 
 .container__card button{
     border: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.9rem;
     background-color: var(--very-light-gray);
     border-radius: 2rem;
     padding: 1rem;
     width: 12rem;
     max-width: 12rem;
-    border: 0.15rem solid var(--very-light-gray);
     margin-top: auto;
 }
