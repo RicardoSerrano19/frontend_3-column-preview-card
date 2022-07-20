@@ -21,4 +21,8 @@ body{
     width: 100vw;
     height: 100vh;
     font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--very-light-gray);
 }
